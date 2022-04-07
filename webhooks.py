@@ -68,8 +68,7 @@ def main():
     while True:
         api_key = "b660f3402c54cb9a9c48f89c35249e5c"
         title = "Weather Info"
-        webhook_url = 'https://discord.com/api/webhooks/961374708580888648/' \
-                      'nr2K0J8di0AyLwjOwc5FWfbBMAflTcdyn0jv01WN4T-10-XyaQctlG10NoVkhP7BQtnQ'
+        webhook_url = 'YOUR_URL_HERE'
         suguri_thumb = 'https://thicc.mywaifulist.moe/waifus/38792/' \
                        '72ad423ac8014520bbc9e7f4c21528e9790fc40fa6986a498de3b2bbde312bcd_thumb.jpg'
         data = get_weather(api_key)
